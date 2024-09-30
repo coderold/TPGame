@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TPGame
 {
-    class GameCharacter
+    public class GameCharacter
     {
-        struct INFO
+        public struct INFO
         {
             public string name;
-            public string level;
+            public int level;
         }
 
-        struct STATS
+        public struct STATS
         {
             public int Strength;
             public int Agility;
@@ -22,8 +18,12 @@ namespace TPGame
             public int Intelligence;
             public int Dexterity;
             public int Luck;
-
-
         }
+
+        public struct PROFESSION
+        {
+            public string profession;
+        }
+
     }
 }
